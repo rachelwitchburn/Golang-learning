@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// alteração do nome da pasta para retirada do hifen
+
 // type <nome-struct> struct { <campos-struct> }
 type Pessoa struct {
 	Nome string

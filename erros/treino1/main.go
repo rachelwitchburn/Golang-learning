@@ -1,0 +1,18 @@
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+func dividir(a, b float64) (float64, error) {
+	if b == 0 {
+		return 0, errors.New("não é possível dividir por zero")
+	}
+
+	return a / b, nil
+}
+
+func main () {
+	fmt.Println(dividir(2, 2))
+}

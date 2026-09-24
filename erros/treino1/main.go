@@ -16,7 +16,8 @@ func dividir(a, b float64) (float64, error) {
 
 
 func main () {
-	fmt.Println(dividir(2, 2))
+	fmt.Println(dividir(2, 1))
+	
 	resultado, err := dividir(10, 0)
 
 	if err != nil {
@@ -25,4 +26,5 @@ func main () {
 	}
 
 	fmt.Println(resultado)
+	
 }
